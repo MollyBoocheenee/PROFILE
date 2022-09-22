@@ -34,6 +34,11 @@ nav ul {
   justify-content: space-between;
   padding: 1rem;
   background-color: #020356;
+  margin: auto;
+}
+
+img {
+  width: 100%;
 }
 
 .my-work {
@@ -46,7 +51,22 @@ nav ul {
   width: 100%;
   background-color: #000;
   height: 80vh;
-  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vangoghstudio.com%2Fblossoming-almond-tree%2F&psig=AOvVaw1M4v805qoUDmOsHzKMJSTg&ust=1663875956205000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMCPrI3TpvoCFQAAAAAdAAAAABAS);
+  background-image: url(https://www.99images.com/download-image/830207/3840x2400);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
+}
+
+.grid-container {
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+
+}
+
+
+
+.about-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
